@@ -1,14 +1,28 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "mrcore/wiki-laravel55-app",
+    "description": "Mrcore Wiki Website Application",
+    "keywords": ["laravel", "mrcore", "wiki"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+
+        "guzzlehttp/guzzle": "~6.0",
+        "predis/predis": "~1.0",
+        "symfony/filesystem": "2.7.*",
+
+        "mrcore/foundation": "~3.0",
+        "mrcore/bootswatch-theme": "~3.0",
+        "mrcore/auth": "*@dev",
+        "mrcore/wiki": "*@dev",
+        "mrcore/parser": "*@dev",
+        "mrcore/text_wiki": "*@dev",
+
+        "mreschke/dbal": "*@dev",
+        "mreschke/helpers": "*@dev"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

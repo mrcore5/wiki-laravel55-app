@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------
@@ -171,11 +171,14 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
+        #App\Providers\AppServiceProvider::class,
+        #App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        #App\Providers\EventServiceProvider::class,
+        #App\Providers\RouteServiceProvider::class,
+
+        // Mrcore Foundation
+        Mrcore\Foundation\Providers\FoundationServiceProvider::class,
 
     ],
 

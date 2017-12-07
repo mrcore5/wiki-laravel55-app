@@ -11,6 +11,24 @@ define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
+| Mrcore Foundation
+|--------------------------------------------------------------------------
+|
+| Fire up the mrcore foundation to allow asset handling
+| and other foundation support bootstraping.
+|
+*/
+
+$basePath = realpath(__DIR__.'/../');
+$runningInConsole = php_sapi_name() == 'cli';
+if (file_exists("$basePath/vendor/mrcore/foundation/Bootstrap/Start.php")) {
+    require "$basePath/vendor/mrcore/foundation/Bootstrap/Start.php";
+} else {
+    require "$basePath/../Modules/Foundation/Bootstrap/Start.php";
+}
+
+/*
+|--------------------------------------------------------------------------
 | Register The Auto Loader
 |--------------------------------------------------------------------------
 |

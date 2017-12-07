@@ -4,8 +4,149 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5eba86da256ddeb8084c32d3d10e18d3",
+    "content-hash": "2c8c00de47461ad3e9e107b5ddac1082",
     "packages": [
+        {
+            "name": "camspiers/porter-stemmer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/camspiers/porter-stemmer.git",
+                "reference": "588088e9aaa6d81d711098cf60af2ef18b1a5798"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/camspiers/porter-stemmer/zipball/588088e9aaa6d81d711098cf60af2ef18b1a5798",
+                "reference": "588088e9aaa6d81d711098cf60af2ef18b1a5798",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Richard Heyes",
+                    "email": "support@rgraph.net"
+                }
+            ],
+            "description": "Porter Stemmer created by Richard Heyes",
+            "time": "2013-02-06T21:39:08+00:00"
+        },
+        {
+            "name": "cebe/markdown",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/markdown.git",
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/25b28bae8a6f185b5030673af77b32e1163d5c6e",
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e",
+                "shasum": ""
+            },
+            "require": {
+                "lib-pcre": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "cebe/indent": "*",
+                "facebook/xhprof": "*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "bin": [
+                "bin/markdown"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cebe\\markdown\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A super fast, highly extensible markdown parser for PHP",
+            "homepage": "https://github.com/cebe/markdown#readme",
+            "keywords": [
+                "extensible",
+                "fast",
+                "gfm",
+                "markdown",
+                "markdown-extra"
+            ],
+            "time": "2017-07-16T21:13:23+00:00"
+        },
+        {
+            "name": "cogpowered/finediff",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cogpowered/FineDiff.git",
+                "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cogpowered/FineDiff/zipball/339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
+                "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "*",
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "cogpowered\\FineDiff": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Crowe",
+                    "email": "rob@cogpowered.com"
+                },
+                {
+                    "name": "Raymond Hill"
+                }
+            ],
+            "description": "PHP implementation of a Fine granularity Diff engine",
+            "homepage": "https://github.com/cogpowered/FineDiff",
+            "keywords": [
+                "diff",
+                "finediff",
+                "opcode",
+                "string",
+                "text"
+            ],
+            "time": "2014-05-19T10:25:02+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -320,6 +461,187 @@
             "time": "2017-06-15T17:19:42+00:00"
         },
         {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2017-06-22T18:50:49+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
             "name": "jakub-onderka/php-console-color",
             "version": "0.1",
             "source": {
@@ -408,16 +730,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.5.23",
+            "version": "v5.5.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cb8ec95aa65fbaeeaf94026c8a9f04bb97c13777"
+                "reference": "06135405bb1f736dac5e9529ed1541fc446c9c0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cb8ec95aa65fbaeeaf94026c8a9f04bb97c13777",
-                "reference": "cb8ec95aa65fbaeeaf94026c8a9f04bb97c13777",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/06135405bb1f736dac5e9529ed1541fc446c9c0f",
+                "reference": "06135405bb1f736dac5e9529ed1541fc446c9c0f",
                 "shasum": ""
             },
             "require": {
@@ -537,7 +859,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-12-04T14:19:08+00:00"
+            "time": "2017-12-07T01:28:21+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -601,6 +923,74 @@
                 "psysh"
             ],
             "time": "2017-07-13T13:11:05+00:00"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v5.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "e3d9fe169dee3467edaaaaa5119d512d20c9b36f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/e3d9fe169dee3467edaaaaa5119d512d20c9b36f",
+                "reference": "e3d9fe169dee3467edaaaaa5119d512d20c9b36f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.5.*",
+                "illuminate/routing": "5.5.*",
+                "illuminate/session": "5.5.*",
+                "illuminate/support": "5.5.*",
+                "illuminate/view": "5.5.*",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "illuminate/database": "5.5.*",
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.5-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Collective\\Html\\HtmlServiceProvider"
+                    ],
+                    "aliases": {
+                        "Form": "Collective\\Html\\FormFacade",
+                        "Html": "Collective\\Html\\HtmlFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "http://laravelcollective.com",
+            "time": "2017-08-31T14:34:34+00:00"
         },
         {
             "name": "league/flysystem",
@@ -762,6 +1152,361 @@
                 "psr-3"
             ],
             "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "mrcore/auth",
+            "version": "3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcore5/auth.git",
+                "reference": "13482c4626f60b8dd22545497a856ef36408cab7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcore5/auth/zipball/13482c4626f60b8dd22545497a856ef36408cab7",
+                "reference": "13482c4626f60b8dd22545497a856ef36408cab7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Database"
+                ],
+                "psr-4": {
+                    "Mrcore\\Auth\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com",
+                    "homepage": "http://mreschke.com"
+                }
+            ],
+            "description": "Mrcore Auth Module",
+            "homepage": "http://github.com/mrcore5/auth",
+            "keywords": [
+                "auth",
+                "framework",
+                "laravel",
+                "mrcore"
+            ],
+            "time": "2017-11-03T17:14:29+00:00"
+        },
+        {
+            "name": "mrcore/bootswatch-theme",
+            "version": "3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcore5/bootswatch-theme.git",
+                "reference": "904d6ab52379aa0380c91df082ada8f77854417c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcore5/bootswatch-theme/zipball/904d6ab52379aa0380c91df082ada8f77854417c",
+                "reference": "904d6ab52379aa0380c91df082ada8f77854417c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mrcore\\Themes\\Bootswatch\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com",
+                    "homepage": "http://mreschke.com"
+                }
+            ],
+            "description": "Mrcore Bootswatch Base Theme",
+            "homepage": "http://github.com/mrcore5/bootswatch-theme",
+            "keywords": [
+                "framework",
+                "laravel",
+                "mrcore",
+                "theme"
+            ],
+            "time": "2017-05-04T21:32:12+00:00"
+        },
+        {
+            "name": "mrcore/foundation",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcore5/foundation.git",
+                "reference": "7def5b0c0ff8afe2fe74b5d71d9737c62e9cb196"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcore5/foundation/zipball/7def5b0c0ff8afe2fe74b5d71d9737c62e9cb196",
+                "reference": "7def5b0c0ff8afe2fe74b5d71d9737c62e9cb196",
+                "shasum": ""
+            },
+            "require": {
+                "laravelcollective/html": "5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mrcore\\Foundation\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com",
+                    "homepage": "http://mreschke.com"
+                }
+            ],
+            "description": "Mrcore Foundation",
+            "homepage": "http://github.com/mrcore5/foundation",
+            "keywords": [
+                "foundation",
+                "framework",
+                "laravel",
+                "mrcore"
+            ],
+            "time": "2017-11-03T17:15:35+00:00"
+        },
+        {
+            "name": "mrcore/parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcore5/parser.git",
+                "reference": "1a13a78b9ba940224f7f94cb82f7c77f02ff7c3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcore5/parser/zipball/1a13a78b9ba940224f7f94cb82f7c77f02ff7c3e",
+                "reference": "1a13a78b9ba940224f7f94cb82f7c77f02ff7c3e",
+                "shasum": ""
+            },
+            "require": {
+                "cebe/markdown": "~1.1",
+                "mrcore/text_wiki": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "TextWiki"
+                ],
+                "psr-4": {
+                    "Mrcore\\Parser\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com"
+                }
+            ],
+            "description": "Mrcore Parser Application",
+            "keywords": [
+                "framework",
+                "laravel",
+                "mrcore",
+                "mrcore5"
+            ],
+            "time": "2017-03-31T19:33:16+00:00"
+        },
+        {
+            "name": "mrcore/text_wiki",
+            "version": "1.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcore5/Text_Wiki.git",
+                "reference": "75558193c293c3ed2f8ee0629cf6ea612cee32fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcore5/Text_Wiki/zipball/75558193c293c3ed2f8ee0629cf6ea612cee32fc",
+                "reference": "75558193c293c3ed2f8ee0629cf6ea612cee32fc",
+                "shasum": ""
+            },
+            "require": {
+                "pear/pear_exception": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Text": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Jones",
+                    "email": "pmjones@ciaweb.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Justin Patrin",
+                    "email": "papercrane@reversefold.com",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Del Elson",
+                    "email": "del@babel.com.au",
+                    "role": "Developer"
+                }
+            ],
+            "description": "More info available on: http://pear.php.net/package/Text_Wiki",
+            "time": "2016-09-28T18:50:48+00:00"
+        },
+        {
+            "name": "mrcore/wiki",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcore5/wiki.git",
+                "reference": "44d3cd6ee3927719e25e4c69eb769fcc87d4cbea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcore5/wiki/zipball/44d3cd6ee3927719e25e4c69eb769fcc87d4cbea",
+                "reference": "44d3cd6ee3927719e25e4c69eb769fcc87d4cbea",
+                "shasum": ""
+            },
+            "require": {
+                "camspiers/porter-stemmer": "1.0.0",
+                "cogpowered/finediff": "~0.0",
+                "sabre/dav": "~1.8.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Database"
+                ],
+                "psr-4": {
+                    "Mrcore\\Wiki\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com",
+                    "homepage": "http://mreschke.com"
+                }
+            ],
+            "description": "Mrcore Wiki Module",
+            "homepage": "http://github.com/mreschke/mrcore-modules-wiki",
+            "keywords": [
+                "framework",
+                "laravel",
+                "mrcore",
+                "wiki"
+            ],
+            "time": "2017-12-06T00:59:56+00:00"
+        },
+        {
+            "name": "mreschke/dbal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mreschke/dbal.git",
+                "reference": "fbade0dd79085c473a088eede6e9c31ef5d9f2ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mreschke/dbal/zipball/fbade0dd79085c473a088eede6e9c31ef5d9f2ca",
+                "reference": "fbade0dd79085c473a088eede6e9c31ef5d9f2ca",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mreschke\\Dbal\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com",
+                    "homepage": "http://mreschke.com"
+                }
+            ],
+            "description": "Mreschke Helpers",
+            "homepage": "http://github.com/mreschke/mreschke-dbal",
+            "keywords": [
+                "dbal",
+                "mreschke"
+            ],
+            "time": "2016-12-07T21:22:49+00:00"
+        },
+        {
+            "name": "mreschke/helpers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mreschke/mreschke-helpers.git",
+                "reference": "53fc30a95b5f8dc3e471ac0ca973cc858e2aab41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mreschke/mreschke-helpers/zipball/53fc30a95b5f8dc3e471ac0ca973cc858e2aab41",
+                "reference": "53fc30a95b5f8dc3e471ac0ca973cc858e2aab41",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mreschke\\Helpers\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com",
+                    "homepage": "http://mreschke.com"
+                }
+            ],
+            "description": "Mreschke Helpers",
+            "homepage": "http://github.com/mreschke/mreschke-helpers",
+            "keywords": [
+                "helpers",
+                "mreschke"
+            ],
+            "time": "2017-11-01T20:24:49+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -960,6 +1705,111 @@
             "time": "2017-09-27T21:40:39+00:00"
         },
         {
+            "name": "pear/pear_exception",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/PEAR_Exception.git",
+                "reference": "8c18719fdae000b690e3912be401c76e406dd13b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/8c18719fdae000b690e3912be401c76e406dd13b",
+                "reference": "8c18719fdae000b690e3912be401c76e406dd13b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "class",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PEAR": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "."
+            ],
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Helgi Thormar",
+                    "email": "dufuz@php.net"
+                },
+                {
+                    "name": "Greg Beaver",
+                    "email": "cellog@php.net"
+                }
+            ],
+            "description": "The PEAR Exception base class.",
+            "homepage": "https://github.com/pear/PEAR_Exception",
+            "keywords": [
+                "exception"
+            ],
+            "time": "2015-02-10T20:07:52+00:00"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2016-06-16T16:22:20+00:00"
+        },
+        {
             "name": "psr/container",
             "version": "1.0.0",
             "source": {
@@ -1007,6 +1857,56 @@
                 "psr"
             ],
             "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -1259,6 +2159,129 @@
             "time": "2017-09-22T20:46:04+00:00"
         },
         {
+            "name": "sabre/dav",
+            "version": "1.8.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabre-io/dav.git",
+                "reference": "78b0a55ae126666b49ec9ac88582d453b971967d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabre-io/dav/zipball/78b0a55ae126666b49ec9ac88582d453b971967d",
+                "reference": "78b0a55ae126666b49ec9ac88582d453b971967d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-date": "*",
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-spl": "*",
+                "php": ">=5.3.1",
+                "sabre/vobject": "~2.1.0"
+            },
+            "provide": {
+                "evert/sabredav": "1.7.*"
+            },
+            "require-dev": {
+                "evert/phpdoc-md": "~0.0.7",
+                "phpunit/phpunit": "~4.0.0"
+            },
+            "suggest": {
+                "ext-apc": "*",
+                "ext-curl": "*",
+                "ext-pdo": "*"
+            },
+            "bin": [
+                "bin/sabredav"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sabre\\DAV": "lib/",
+                    "Sabre\\HTTP": "lib/",
+                    "Sabre\\DAVACL": "lib/",
+                    "Sabre\\CalDAV": "lib/",
+                    "Sabre\\CardDAV": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Evert Pot",
+                    "email": "me@evertpot.com",
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WebDAV Framework for PHP",
+            "homepage": "http://code.google.com/p/sabredav/",
+            "keywords": [
+                "CalDAV",
+                "CardDAV",
+                "WebDAV",
+                "framework",
+                "iCalendar"
+            ],
+            "time": "2015-01-21T21:01:09+00:00"
+        },
+        {
+            "name": "sabre/vobject",
+            "version": "2.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabre-io/vobject.git",
+                "reference": "c3ebe643fd1037b656ebcc149e3fd3d38938fe58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/c3ebe643fd1037b656ebcc149e3fd3d38938fe58",
+                "reference": "c3ebe643fd1037b656ebcc149e3fd3d38938fe58",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.1"
+            },
+            "bin": [
+                "bin/vobjectvalidate.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sabre\\VObject": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Evert Pot",
+                    "email": "evert@rooftopsolutions.nl",
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The VObject library for PHP allows you to easily parse and manipulate iCalendar and vCard objects",
+            "homepage": "http://sabre.io/vobject/",
+            "keywords": [
+                "VObject",
+                "iCalendar",
+                "vCard"
+            ],
+            "time": "2015-01-21T20:57:59+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.0.2",
             "source": {
@@ -1493,30 +2516,30 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.4.1",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "ca20b8f9ef149f40ff656d52965f240d85f7a8e4"
+                "reference": "6223fb2b68e7059e8d5843c0103999a84e7275cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ca20b8f9ef149f40ff656d52965f240d85f7a8e4",
-                "reference": "ca20b8f9ef149f40ff656d52965f240d85f7a8e4",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/6223fb2b68e7059e8d5843c0103999a84e7275cf",
+                "reference": "6223fb2b68e7059e8d5843c0103999a84e7275cf",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8"
+                "php": "^7.1.3"
             },
             "conflict": {
-                "symfony/dependency-injection": "<3.3"
+                "symfony/dependency-injection": "<3.4"
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "~2.8|~3.0|~4.0",
-                "symfony/dependency-injection": "~3.3|~4.0",
-                "symfony/expression-language": "~2.8|~3.0|~4.0",
-                "symfony/stopwatch": "~2.8|~3.0|~4.0"
+                "symfony/config": "~3.4|~4.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/expression-language": "~3.4|~4.0",
+                "symfony/stopwatch": "~3.4|~4.0"
             },
             "suggest": {
                 "symfony/dependency-injection": "",
@@ -1525,7 +2548,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.4-dev"
+                    "dev-master": "4.0-dev"
                 }
             },
             "autoload": {
@@ -1552,7 +2575,56 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-11-09T14:14:31+00:00"
+            "time": "2017-11-09T17:30:28+00:00"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.7.39",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "bd46166fb57a2cecbe0fd76c5b86fb73c5c696d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/bd46166fb57a2cecbe0fd76c5b86fb73c5c696d5",
+                "reference": "bd46166fb57a2cecbe0fd76c5b86fb73c5c696d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-11-16T12:37:27+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2228,32 +3300,32 @@
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
-            "version": "1.0.5",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d"
+                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/8e884e78f9f0eb1329e445619e04456e64d8051d",
-                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
+                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3,<8.0-DEV"
+                "php": "^7.1"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1.8",
                 "ext-pdo": "*",
                 "ext-phar": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
+                "phpunit/phpunit": "^6.2.3",
+                "squizlabs/php_codesniffer": "^3.0.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -2278,7 +3350,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2017-07-22T11:58:36+00:00"
         },
         {
             "name": "filp/whoops",
@@ -3910,7 +4982,14 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mrcore/auth": 20,
+        "mrcore/wiki": 20,
+        "mrcore/parser": 20,
+        "mrcore/text_wiki": 20,
+        "mreschke/dbal": 20,
+        "mreschke/helpers": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
