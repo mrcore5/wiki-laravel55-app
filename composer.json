@@ -16,13 +16,13 @@
 
         "mrcore/foundation": "~3.0",
         "mrcore/bootswatch-theme": "~3.0",
-        "mrcore/auth": "*@dev",
-        "mrcore/wiki": "*@dev",
-        "mrcore/parser": "*@dev",
-        "mrcore/text_wiki": "*@dev",
+        "mrcore/auth": "~3.0",
+        "mrcore/wiki": "~3.0",
+        "mrcore/parser": "~3.0",
+        "mrcore/text_wiki": "~1.0",
 
-        "mreschke/dbal": "*@dev",
-        "mreschke/helpers": "*@dev"
+        "mreschke/dbal": "~1.0",
+        "mreschke/helpers": "~2.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
