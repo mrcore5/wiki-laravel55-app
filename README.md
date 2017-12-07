@@ -5,6 +5,13 @@ Full Laravel 5.5 application serving the Mrcore Wiki application
 
 # Installation
 
+* `cd /var/www`
+* `git clone https://github.com/mrcore5/wiki-laravel55-app wiki`
+* `cd wiki`
+* `composer install`
+* `cp .env.example .env`
+* `./artisan key:generate`
+* Edit .env to your environment
 
 
 
@@ -41,6 +48,13 @@ server {
 }
 EOF
 ```
+
+# MySQL
+
+Create user `mrcore` with full access to database `wiki`
+* `CREATE DATABASE wiki`
+* `CREATE USER 'mrcore'@'%' IDENTIFIED BY 'techie'; GRAND ALL PRIVILEGES on wiki.* to 'mrcore'@'%';`
+
 
 
 
