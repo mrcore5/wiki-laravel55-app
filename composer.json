@@ -21,8 +21,8 @@
         "mrcore/parser": "~3.0",
         "mrcore/text_wiki": "~1.0",
 
-        "mreschke/dbal": "~1.0",
-        "mreschke/helpers": "~2.0"
+        "mreschke/dbal": "~2.0",
+        "mreschke/helpers": "~1.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
