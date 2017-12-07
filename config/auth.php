@@ -37,7 +37,8 @@ return [
 
     'guards' => [
         'web' => [
-            'driver' => 'session',
+            #'driver' => 'session',
+            'driver' => 'mrcore',
             'provider' => 'users',
         ],
 
@@ -67,7 +68,8 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            #'model' => App\User::class,
+            'model' => Mrcore\Auth\Models\User::class,
         ],
 
         // 'users' => [
